@@ -8,7 +8,7 @@ Downloads are on the Releases page. The macOS builds are for Apple Silicon (M-se
 
 ## Installing the alpha
 
-Builds are not signed yet, so your computer warns you the first time you open the app. Running interviews on your own Claude Code or Codex is not in this alpha yet. The full tester guide is at https://github.com/sudopower/vetme-desktop/blob/main/docs/testing/alpha.md.
+Builds are not signed yet, so your computer warns you the first time you open the app. Running interviews on your own Claude Code or Codex is not in this alpha yet. Only the files attached to a release exist: if a release has no Windows or Linux file, that build is not part of it.
 
 ### Install on macOS
 
@@ -48,6 +48,8 @@ If sign-in does not finish, choose Cancel in the vetme window and try again. If 
 
 - The rail on the left has Dashboard, New assessment, Mock interviews, Sharpen, Arcade, Sessions and Settings. Back and Forward are at the top of the rail.
 - The pages are the vetme website, so what you see matches what you see on the web.
+- Back and Forward also work from the keyboard: Cmd+[ and Cmd+] on macOS, Alt+Left and Alt+Right on Windows and Linux. Cmd or Ctrl+R reloads the page.
+- A link like `vetme://open?path=/sharpen` opens that page in vetme, if vetme is installed. Links that carry sign-in details are refused.
 - Settings has your theme, notifications, update status, and devices.
 
 ### Updates
